@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html ng-app="psMovies">
+
+<head>
+    <title>AngularComponent</title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+    <nav class="nav navbar-default navbar-inverse container-fluid">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">At The Movies</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <movie-list></movie-list>
+    </div>
+    <script src="Scripts/angular.js"></script>
+    <script src="ps-movies/module.js"></script>
+    <script src="ps-movies/movie-list.component.js"></script>
+    <script src="ps-movies/movie-rating.component.js"></script>
+</body>
+</html>
